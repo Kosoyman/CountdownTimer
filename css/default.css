@@ -1,5 +1,60 @@
-#timer{
-    outline-color: red;
-    color: gray;
-    align-self: center;
+.table {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    width: 90%;
+}
+
+#date{
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+#time{
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+#reset {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+#submit {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.number {
+    font-size: 100pt
+}
+
+.text {
+    font-size: 60pt
 }
